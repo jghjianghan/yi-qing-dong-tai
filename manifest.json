@@ -5,8 +5,8 @@
   "background_color": "#002a88",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/covid/",
-  "start_url": "/covid/",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
