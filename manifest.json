@@ -5,8 +5,8 @@
   "background_color": "#002a88",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/yi-qing-dong-tai/",
+  "start_url": "/yi-qing-dong-tai/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
