@@ -10,6 +10,7 @@
     <title>疫情动态</title>
 
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="/images/icons/icon-72x72.png">
 
     <style>
         h1,
@@ -252,7 +253,9 @@
             for (let countryData of data) {
                 const row = document.createElement("tr");
 
-                row.appendChild(create_td(isoToChn[countryData.countryInfo.iso2]))
+                let iso2 = countryData.countryInfo.iso2
+
+                row.appendChild(create_td(iso2 ? isoToChn[countryData.countryInfo.iso2] : "鑽石公主號"))
                 row.appendChild(create_td(countryData.todayCases))
                 row.appendChild(create_td(countryData.cases))
                 row.appendChild(create_td(countryData.recovered))
